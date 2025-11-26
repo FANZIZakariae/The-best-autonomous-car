@@ -4,8 +4,8 @@
 """
 Pipeline YOLO + CNN pour la détection et la classification de panneaux.
 
-- YOLO (models/yolo/best.pt) : détecte les panneaux (1 classe "sign")
-- CNN  (models/cnn/My_GTSRB_5classes_balanced.h5) : classe 5 panneaux :
+- YOLO (models/best.pt) : détecte les panneaux (1 classe "sign")
+- CNN  (models/My_GTSRB_5classes_balanced.h5) : classe 5 panneaux :
     0 -> Speed limit 20 km/h  (00000)
     1 -> Speed limit 50 km/h  (00002)
     2 -> Stop                 (00014)
