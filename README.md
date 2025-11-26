@@ -63,18 +63,5 @@ The-best-autonomous-car/
 │
 └── README.md
 
-3. Datasets utilisés
 
-3.1. GTSRB – Classification (CNN)
-
-GTSRB – German Traffic Sign Recognition Benchmark
-	•	Utilisé pour entraîner le CNN de classification.
-	•	Structure typique :
-GTSRB-2/
-  └── Final_Training/
-      └── Images/
-          ├── 00000/
-          ├── 00001/
-          ├── ...
-          └── 00042/
 	
