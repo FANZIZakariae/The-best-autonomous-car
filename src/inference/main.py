@@ -39,7 +39,7 @@ def main():
     # Start forward movement at very slow speed
     esc.set_speed(1560)
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(VIDEO_PATH)
     if not cap.isOpened():
         print("❌ Error: Could not open video.")
         return

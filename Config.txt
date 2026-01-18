@@ -1,0 +1,17 @@
+######## Mirroring #########
+''' 
+When trying to mirror the movement from the simulation to the real car.
+Must change the raspberrypi IP adress in the MQTT server of the simulator.
+path : ~/miniconda3/envs/donkey/lib/python3.11/site-packages/donkeycar/parts/web_controller$
+with the name: self.mqtt_client.connect("raspi.IP.adress", 1883, 60)
+''''
+
+######## Pins (Servo/ESC) ######
+'''
+We are using Raspi 4 model B, change your pins corresponding to your raspi
+or modify directely in the scripts of pwm_stearing.py and/or esc.py in the utils
+s : signal, g: ground, v: voltage
+
+Servo --> pin s:11(GPIO 17) , pin g:14 , pin v:2
+ESC   --> pin s:3(GPIO 2) , pin g:6 , pin v: non
+'''
